@@ -22,13 +22,13 @@ function toggleMode(){
         img.setAttribute('src', './assets/avatar.png')
     }
 
-    //mudar descrção da foto quando mudar de modo
+    //mudar descrição da foto quando mudar de modo
 
     const alt = document.querySelector('#profile img')
 
-    if (alt.classList.contains('light')) {
-        alt.setAttribute('alt', 'Foto de Rodrigo escondendo o rosto com o celular')
+    if (html.classList.contains('light')) {
+        alt.setAttribute('alt', ' Foto de Rodrigo sorrindo na frente do espelho')
     } else {
-        alt.setAttribute('alt', 'Foto de Rodrigo sorrindo na frente do espelho')
+        alt.setAttribute('alt', 'Foto de Rodrigo escondendo o rosto com o celular')
     }
 }
